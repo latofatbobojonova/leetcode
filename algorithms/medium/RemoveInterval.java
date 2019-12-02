@@ -7,10 +7,6 @@ import java.util.LinkedList;
 import java.util.List;
 
 public class RemoveInterval {
-    public static void main(String[] args) {
-        System.out.println(new RemoveInterval().removeInterval(new int[][]{{-5, -4}, {-3, -2}, {1, 2}, {3, 5}, {8, 9}}, new int[]{-1, 4}));
-    }
-
     public List<List<Integer>> removeInterval(int[][] intervals, int[] toBeRemoved) {
 
         List<List<Integer>> leftRemovedIntervals = new LinkedList<>();
