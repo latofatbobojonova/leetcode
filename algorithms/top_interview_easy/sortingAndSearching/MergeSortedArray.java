@@ -1,5 +1,5 @@
 //https://leetcode.com/problems/merge-sorted-array/
-package easy.sortingAndSearching;
+package top_interview_easy.sortingAndSearching;
 
 public class MergeSortedArray {
     public void merge(int[] nums1, int m, int[] nums2, int n) {

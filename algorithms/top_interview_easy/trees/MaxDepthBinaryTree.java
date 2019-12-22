@@ -1,5 +1,5 @@
 //https://leetcode.com/problems/maximum-depth-of-binary-tree/
-package easy.trees;
+package top_interview_easy.trees;
 
 import tree.TreeNode;
 

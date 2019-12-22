@@ -1,5 +1,5 @@
 //https://leetcode.com/problems/symmetric-tree/
-package easy.trees;
+package top_interview_easy.trees;
 
 import tree.TreeNode;
 

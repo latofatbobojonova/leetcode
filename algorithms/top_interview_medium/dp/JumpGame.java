@@ -1,5 +1,5 @@
 //https://leetcode.com/problems/jump-game/submissions/
-package medium.dp;
+package top_interview_medium.dp;
 
 public class JumpGame {
     public static void main(String[] args) {

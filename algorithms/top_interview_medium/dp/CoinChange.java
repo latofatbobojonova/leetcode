@@ -1,5 +1,5 @@
 //https://leetcode.com/problems/coin-change/
-package medium.dp;
+package top_interview_medium.dp;
 
 public class CoinChange {
     public int coinChange(int[] coins, int amount) {

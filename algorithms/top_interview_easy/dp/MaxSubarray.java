@@ -1,5 +1,5 @@
 //https://leetcode.com/problems/maximum-subarray/
-package easy.dp;
+package top_interview_easy.dp;
 
 public class MaxSubarray {
     public int maxSubArray(int[] nums) {

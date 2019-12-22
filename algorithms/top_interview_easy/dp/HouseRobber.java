@@ -1,5 +1,5 @@
 //https://leetcode.com/problems/house-robber/
-package easy.dp;
+package top_interview_easy.dp;
 
 public class HouseRobber {
     public int rob(int[] nums) {

@@ -1,5 +1,5 @@
 //https://leetcode.com/problems/rotate-array/
-package easy.array;
+package top_interview_easy.array;
 
 public class RotateArray {
     public void rotate(int[] nums, int k) {

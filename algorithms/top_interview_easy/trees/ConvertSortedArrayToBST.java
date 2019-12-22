@@ -1,5 +1,5 @@
 //https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/
-package easy.trees;
+package top_interview_easy.trees;
 
 import tree.TreeNode;
 

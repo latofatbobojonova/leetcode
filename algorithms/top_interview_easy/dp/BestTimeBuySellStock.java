@@ -1,5 +1,5 @@
 //https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
-package easy.dp;
+package top_interview_easy.dp;
 
 public class BestTimeBuySellStock {
     public int maxProfit(int[] prices) {

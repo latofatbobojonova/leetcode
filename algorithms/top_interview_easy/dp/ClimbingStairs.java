@@ -1,6 +1,6 @@
 //https://leetcode.com/problems/climbing-stairs/
 
-package easy.dp;
+package top_interview_easy.dp;
 
 public class ClimbingStairs {
     public int climbStairs(int n) {

@@ -1,5 +1,5 @@
 //https://leetcode.com/problems/unique-paths/
-package medium.dp;
+package top_interview_medium.dp;
 
 public class UniquePath {
     public int uniquePaths(int m, int n) {
