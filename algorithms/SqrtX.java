@@ -9,4 +9,26 @@ public class SqrtX {
         }
         return (int) n;
     }
+
+    public int searchSqrt(int x) {
+        if (x == 0)
+            return 0;
+
+        int hi = x;
+        int lo = 1;
+        int mid;
+
+        while (hi >= lo) {
+            mid = (hi - lo) / 2 + lo;
+
+            if (mid == x / mid) return mid;
+            if (mid > x / mid) {
+                hi = mid - 1;
+            } else {
+                lo = mid + 1;
+            }
+        }
+
+        return hi;
+    }
 }
