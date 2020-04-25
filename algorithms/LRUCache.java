@@ -7,13 +7,12 @@ public class LRUCache {
     private Map<Integer, Node> nodeMap;
     private Node head;
     private Node tail;
-    int size;
+    private int size;
     int capacity;
 
     public LRUCache(int capacity) {
         this.capacity = capacity;
         nodeMap = new HashMap<>();
-        size = 0;
     }
 
     public int get(int key) {
@@ -58,9 +57,7 @@ public class LRUCache {
         Node node = nodeMap.get(key);
 
         // Most recently used
-        if (node == head) {
-            return;
-        }
+        if (node == head) return;
 
         // Least recently used or In the middle
         if (node == tail) {
@@ -86,8 +83,6 @@ public class LRUCache {
         Node(int key, int val) {
             this.key = key;
             this.val = val;
-            next = null;
-            prev = null;
         }
     }
 }
