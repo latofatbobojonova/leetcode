@@ -48,4 +48,3 @@ public class MaximalSquare {
         return maxSquareSide * maxSquareSide;
     }
 }
-}
