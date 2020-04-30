@@ -17,7 +17,7 @@ public class CheckValidSequenceInBinaryTree {
     }
 
     private void checkNode(TreeNode node, int level) {
-        if (node == null || level > searchDepth) return;
+        if (isValidExist || node == null || level > searchDepth) return;
 
         if (level == searchDepth && isLeaf(node) && node.val == string[level])
             isValidExist = true;
